@@ -48,7 +48,7 @@
   .lead { font-size: clamp(19px, 2.4vw, 21px); color: var(--ink-secondary); margin-top: 14px; }
 
   .hero {
-    position: relative; aspect-ratio: 1672 / 941; min-height: 520px;
+    position: relative; aspect-ratio: 1672 / 941;
     display: flex; align-items: center; text-align: left; overflow: hidden;
     background: #000;
   }
@@ -174,8 +174,8 @@
   .fade.on { opacity: 1; }
   @media (prefers-reduced-motion: reduce) { .fade { opacity: 1; transition: none; } }
 
-  @media (max-width: 924px) {
-    .hero { display: block; aspect-ratio: auto; min-height: 0; background: #000; }
+  @media (max-width: 640px) {
+    .hero { display: block; aspect-ratio: auto; background: #000; }
     .hero-img { position: static; width: 100%; height: auto; }
     .hero .wrap { max-width: none; margin-left: 0; padding: 34px 20px 56px; }
     .hero h1, .hero .lead { color: inherit; text-shadow: none; }
