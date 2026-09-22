@@ -496,9 +496,9 @@
 
   const svg = document.getElementById('curve-svg');
   if (svg) {
-    const vals = [0,15,22,35,45,75,80,110,150,210,230,245,250,350,400,420,430,450,500,530,550,580,620,850,860,550,600,750,900,800,1200,2000];
+    const vals = [0,15,22,35,45,75,80,110,150,210,230,245,250,350,400,420,430,450,500,530,550,580,620,600,570,520,600,700,850,800,950,1200];
     const years = []; for (let y = 2018; y <= 2026; y++) for (let q = 1; q <= 4; q++) { if (y === 2018 && q < 4) continue; if (y === 2026 && q > 3) continue; years.push(y + 'Q' + q); }
-    const X0 = 44, X1 = 970, Y0 = 420, Y1 = 20, VMAX = 2000;
+    const X0 = 44, X1 = 970, Y0 = 420, Y1 = 20, VMAX = 1250;
     const step = (X1 - X0) / (vals.length - 1);
     const pts = vals.map((v, i) => ({ x: X0 + i * step, y: Y0 - (v / VMAX) * (Y0 - Y1) }));
     const n = pts.length;
