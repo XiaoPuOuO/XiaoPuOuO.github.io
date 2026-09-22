@@ -86,7 +86,9 @@
   .curve-tip strong { color: var(--accent-link); font-weight: 600; }
 
   /* 興趣樹狀圖 */
-  .tree { margin-top: 48px; }
+  .about-lead { max-width: 720px; margin: 24px auto 0; font-size: 19px; line-height: 1.65; color: var(--ink-secondary); }
+  .tree-title { margin-top: 56px; font-size: 21px; font-weight: 600; letter-spacing: -0.015em; }
+  .tree { margin-top: 32px; }
   .tree .root {
     display: inline-block; padding: 8px 28px; border-radius: 980px;
     border: 1px solid var(--hairline); background: var(--page-alt);
@@ -213,6 +215,8 @@
 <section id="about" class="fade">
   <div class="wrap">
     <h2>關於我</h2>
+    <p class="about-lead">我目前就讀於稻江高商，寫程式約 8 年，多數來自 side project 的磨練。我擅長把複雜的問題拆解成可實作的系統，從後端到前端都能處理，其中我最擅長的是後端跟 AI 應用整合。興趣很廣，寫程式、畫圖、音樂都略有涉略——最近最著迷的，是把 AI 放進軟體架構裡，讓它不只是回答問題，而是能參與決策與執行。</p>
+    <h3 class="tree-title">興趣</h3>
     <div class="tree">
       <div class="root">興趣</div>
       <div class="trunk"></div>
@@ -332,10 +336,10 @@
       </div>
       <div>
         <h3>其他</h3>
+        <div class="row"><span class="when">2023年底</span><p class="what">第一次出國・中國福建、廣東</p></div>
         <div class="row"><span class="when">2024年中</span><p class="what">第一次接觸 Generative AI</p></div>
-        <div class="row"><span class="when">2024年底</span><p class="what">第一次出國・中國福建、廣東</p></div>
+        <div class="row"><span class="when">2024年底</span><p class="what">第二次出國・中國北京、河北</p></div>
         <div class="row"><span class="when">2025年初</span><p class="what">傳說對決稻江校隊</p></div>
-        <div class="row"><span class="when">2025年底</span><p class="what">第二次出國・中國北京、河北</p></div>
         <div class="row"><span class="when">2026年初–至今</span><p class="what">創立 <a href="https://merchant.vdineapp.com" target="_blank" rel="noopener">VDineApp</a></p></div>
         <div class="row"><span class="when">2026年底</span><p class="what">第三次出國・美國加州舊金山（矽谷）、洛杉磯，奧勒岡州 Portland、Corvallis</p></div>
         <div class="row"><span class="when">202X</span><p class="what">第四次出國・日本<span class="pill">計劃中</span></p></div>
@@ -358,12 +362,12 @@
       <li><span class="when">2022年底–2024年中</span><p class="what">奇遇之地伺服器</p><p class="res">2022年底–2024年初開發，2024年中起營運・2 個月大約賺 22 萬</p></li>
       <li><span class="when">2023年初</span><p class="what">Scratch 貓咪杯・遊戲・國中組</p><p class="res">新北市特優</p></li>
       <li><span class="when">2023年底</span><p class="what">APCS 觀念 4 級・實作 3 級</p></li>
+      <li><span class="when">2023年底</span><p class="what">第一次出國・中國福建、廣東</p></li>
       <li><span class="when">2024年中</span><p class="what">第一次接觸 Generative AI</p></li>
-      <li><span class="when">2024年底</span><p class="what">第一次出國・中國福建、廣東</p></li>
       <li><span class="when">2024年底</span><p class="what">上高中・臺北市私立稻江高級商業職業學校</p></li>
+      <li><span class="when">2024年底</span><p class="what">第二次出國・中國北京、河北</p></li>
       <li><span class="when">2025年初</span><p class="what">傳說對決稻江校隊</p></li>
       <li><span class="when">2025中–底</span><p class="what">CCCE AI 遊戲設計・高中組</p><p class="res">全國冠軍</p></li>
-      <li><span class="when">2025年底</span><p class="what">第二次出國・中國北京、河北</p></li>
       <li><span class="when">2026年初–至今</span><p class="what">創立 <a href="https://merchant.vdineapp.com" target="_blank" rel="noopener">VDineApp</a></p></li>
       <li><span class="when">2026年中</span><p class="what">TQC+ 生成式 AI 應用與技術・專業級</p></li>
       <li><span class="when">2026年底</span><p class="what">第三次出國・美國加州舊金山（矽谷）、洛杉磯，奧勒岡州 Portland、Corvallis</p></li>
@@ -543,12 +547,11 @@
       [14, ['RaidersTower 3.0（孵化失敗）', 'GEPT 初級英檢']],
       [16, ['奇遇之地伺服器（開始）']],
       [17, ['Scratch 貓咪杯・新北市特優']],
-      [20, ['APCS 觀念 4 級・實作 3 級']],
+      [20, ['APCS 觀念 4 級・實作 3 級', '第一次出國・中國福建、廣東']],
       [22, ['第一次接觸 Generative AI']],
-      [24, ['上高中・臺北市私立稻江高商', '第一次出國・中國福建、廣東']],
+      [24, ['上高中・臺北市私立稻江高商', '第二次出國・中國北京、河北']],
       [25, ['傳說對決稻江校隊']],
-      [27, ['CCCE AI 遊戲設計・全國冠軍']],
-      [28, ['第二次出國・中國北京、河北']],
+      [28, ['CCCE AI 遊戲設計・全國冠軍']],
       [29, ['創立 VDineApp']],
       [30, ['TQC+ 生成式 AI 應用與技術・專業級', '覺醒（原因：不明）']],
       [31, ['中華電信智慧創新應用大賽（參加中）', 'CCCE AI 遊戲設計（參加中）', 'iPAS AI 應用規劃師（報名中）', '第三次出國・美國矽谷、洛杉磯、波特蘭']]
